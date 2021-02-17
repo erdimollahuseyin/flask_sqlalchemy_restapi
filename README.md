@@ -5,6 +5,9 @@ Books API using Python Flask, SQL Alchemy and Marshmallow.
 ## Quick Start
 
 ```
+$ git clone git@github.com:erdimollahuseyin/flask_sqlalchemy_restapi.git
+$ cd flask_sqlalchemy_restapi/
+
 # Activate venv
 $ pip3 install virtualenv
 $ virtualenv book_env
