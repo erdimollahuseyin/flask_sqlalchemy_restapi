@@ -15,16 +15,17 @@ $ cd book_env
 $ source bin/activate
 
 # Install dependencies
+$ cd ..
 $ pip install -r requirements/base.pip
 
 # Create DB
 $ python
->> from app import db
+>> from book.crud.database import db
 >> db.create_all()
 >> exit()
 
 # Run Server (http://localhst:5000)
-python app.py
+python run.py
 
 ```
 ## Endpoints
